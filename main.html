@@ -49,8 +49,39 @@ body, html {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
     min-height: 400px;
+    
   }
 }
+    
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #000000;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 26px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #082333;
+  background-image: -webkit-linear-gradient(top, #082333, #7c8d99);
+  background-image: -moz-linear-gradient(top, #082333, #7c8d99);
+  background-image: -ms-linear-gradient(top, #082333, #7c8d99);
+  background-image: -o-linear-gradient(top, #082333, #7c8d99);
+  background-image: linear-gradient(to bottom, #082333, #7c8d99);
+  text-decoration: none;
+}
+        
+    }
 </style>
 </head>
     
@@ -65,10 +96,9 @@ body, html {
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-download"></i> Download</a>
+    <a href="#home" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-download"></i> Download</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
     </a>
@@ -77,8 +107,7 @@ body, html {
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>s
     <a href="#" class="w3-bar-item w3-button">SEARCH</a>
   </div>
 </div>
@@ -86,21 +115,21 @@ body, html {
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">WEBSITE</span> LOGO</span>
+    <a class="btn" href="https://mega.nz/file/vCAnRS4D#6oQ9Wm_rULr9sPjvSiI56Qo0Qo5bnrPSmYLHW7z6-Sc/">AI assistant download android</a>
   </div>
 </div>
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">ABOUT US</h3>
-  <p class="w3-center"><em>I love photography</em></p>
+  <h3 class="w3-center">About the Project</h3>
+  <p class="w3-center"><em>AI assistant</em></p>
   <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
     qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>Albedo</b></p><br>
-      <img src="D:\WorkWeb\temp\me.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+      <p><b><i class="fa fa-laptop w3-margin-right"></i>Home</b></p><br>
+      <img src="" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo project 1" width="500" height="333">
     </div>
 
     <!-- Hide this text on small devices -->
@@ -112,8 +141,8 @@ body, html {
       
       
        <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>Joe</b></p><br>
-      <img src="D:\WorkWeb\temp\joe2.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+      <p><b><i class="fa fa-laptop w3-margin-right"></i>settings</b></p><br>
+      <img src="" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="settings" width="500" height="333">
     </div>
 
     <!-- Hide this text on small devices -->
@@ -125,8 +154,8 @@ body, html {
       
       
         <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>arfa</b></p><br>
-      <img src="D:\WorkWeb\temp\arfa.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+      <p><b><i class="fa fa-laptop w3-margin-right"></i>121212</b></p><br>
+      <img src="" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="any" width="500" height="333">
     </div>
 
     <!-- Hide this text on small devices -->
@@ -136,31 +165,8 @@ body, html {
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
       
-      
-        <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>Mousa</b></p><br>
-      <img src="D:\WorkWeb\temp\musa.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
-    </div>
 
-    <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-      
-      
-        <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>hegab</b></p><br>
-      <img src="D:\WorkWeb\temp\hegab.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
-    </div>
 
-    <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
   </div>
   <p class="w3-large w3-center w3-padding-16">We are really good at:</p>
   <p class="w3-wide"><i class="fa fa-server"></i>Network</p>
@@ -183,7 +189,7 @@ body, html {
     Partners
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">55+</span><br>
+    <span class="w3-xlarge">10+</span><br>
     Projects Done
   </div>
   <div class="w3-quarter w3-section">
@@ -191,7 +197,7 @@ body, html {
     Happy Clients
   </div>
   <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">150+</span><br>
+    <span class="w3-xlarge">15+</span><br>
     Meetings
   </div>
 </div>
@@ -205,7 +211,7 @@ body, html {
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <h3 class="w3-center">MY WORK</h3>
+  <h3 class="w3-center">Team</h3>
   <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
@@ -240,9 +246,6 @@ body, html {
       <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="photo 7">
     </div>
 
-    <div class="w3-col m3">
-      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="photo 8">
-    </div>
   </div>
 </div>
 
@@ -255,61 +258,11 @@ body, html {
   </div>
 </div>
 
-<!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
-  </div>
-</div>
 
-<!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-64" id="contact">
-  <h3 class="w3-center">WHERE I WORK</h3>
-  <p class="w3-center"><em>I'd love your feedback!</em></p>
 
-  <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m4 w3-container">
-      <img src="D:\WorkWeb\temp\553.jpg"  style="width:100%">
-    </div>
-    <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Menufia, EG<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +20 <br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
-      </div>
-      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
-      <form action="/action_page.php" target="_blank">
-        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-          </div>
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-          </div>
-        </div>
-        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        <button class="w3-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </form>
-    </div>
-  </div>
-</div>
 
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
- 
+
+
 <script>
 // Modal Image Gallery
 function onClick(element) {
